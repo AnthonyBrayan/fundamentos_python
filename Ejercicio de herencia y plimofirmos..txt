@@ -1,0 +1,21 @@
+Sistema de Empleados Corporativos
+En este ejercicio, desarrollaremos un sistema para gestionar diferentes tipos de empleados en una empresa. Este sistema nos ayudará a entender los conceptos básicos de la herencia y el polimorfismo.
+Objetivo Principal: Crear un sistema que permita gestionar diferentes tipos de empleados y calcular sus salarios según sus características específicas.
+Requisitos Detallados:
+Clase Base Employee:
+Atributos obligatorios:
+ID del empleado
+Nombre completo
+Fecha de contratación
+Salario base
+Métodos necesarios:
+Constructor con validaciones
+Cálculo de años de antigüedad
+Método abstracto para cálculo de salario
+Tipos de Empleados a Implementar:
+Empleado a Tiempo Completo:
+Salario base + bonus por antigüedad (5% por año)
+Empleado a Tiempo Parcial:
+Salario calculado por horas trabajadas
+Empleado por Comisiones:
+Salario base + porcentaje de ventas
