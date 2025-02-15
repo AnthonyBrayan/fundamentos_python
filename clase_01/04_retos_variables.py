@@ -1,7 +1,7 @@
 #Ejercicio de variables en Python 🐍
 
 ##Ejercicio 01: Información Personal
-
+print("================Ejercicio 01=================")
 """
 
 Crear variables para almacenar:
@@ -22,8 +22,14 @@ estudiante = False
 print(f"Nombre: {nombre},\nEdad: {edad},\nAltura: {altura},\n¿Eres estudiante?:{estudiante}")
 
 ##Ejercicio 02: Intercambio de variables.
+print("================Ejercicio 02=================")
 "Crea dos variables."
 a = 5
 b= 10
 
 "Intercambia las variables sin usar una tercera variable"
+print(f"Valor de a: {a}\nValor de b: {b} ")
+
+a,b = b,a
+
+print(f"Nuevo valor de a: {a}\nNuevo valor de b: {b}")
