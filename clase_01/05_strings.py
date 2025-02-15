@@ -36,7 +36,7 @@ nombre_completo = nombre + " " + apellido
 print(f"Nombre completo: {nombre_completo}")
 
 # 4. Operaciones con strings
-print("\n----- Operaciones con strings -----")
+print("\n,----- Operaciones con strings -----")
 print("\n4.1 Concatenación")
 nombre_completo = nombre + " " + apellido
 print(f"Nombre completo: {nombre_completo}")
@@ -62,7 +62,6 @@ altura = 1.70
 
 #Usando formato format() (Es antiguo)
 print("Me llamo {}, tengo {} años, y mido {} cm".format(nombre, edad, altura))
-
 #Usando formato f-strings (Recomendado)
 print(f"Me llamo {nombre}, tengo {edad} años y mido {altura} cm.")
 
@@ -76,7 +75,5 @@ print(f"\n----- Acceso a caracteres -----")
 # \\ Barra invertida
 
 print("Línea 1\nLínea2")
-
 print("Nombre:\tAna")
-
 print("Él dijo: \"Hola\"")
