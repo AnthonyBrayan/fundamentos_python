@@ -1,17 +1,24 @@
+# Valores booleanos
+# En python, en python los booleanos pueden ser True o False
+
 verdadero = True
 falso = False
-
+print("----- Valores Booleanos -----")
 print(f"Verdadero: {verdadero}")
 print(f"Falso: {falso}")
 
-negacion_verdadero = not verdadero
-negacion_false= not falso
+# Booleanos invertidos
+verdadero_invertido = not verdadero
+falso_invertido= not falso
+print("\n----- Booleanos invertidos -----")
+print(f"Valor verdadero invertido: {verdadero_invertido}")
+print(f"Valor falso invertido: {falso_invertido}")
+print(f"Tipo de verdadero invertido: {type(verdadero_invertido)}")
 
-print(f"Valor verdadero invertido: {negacion_verdadero}")
-print(f"Valor falso invertido: {negacion_false}")
+# Doble inversión (vuelve al valor original)
+verdadero_doble_invertido= not not verdadero
+falso_doble_invertido= not not falso
 
-doble_negacion_verdadero= not not verdadero
-doble_negación_falso= not not falso
-
-print(f"Doble negación verdadero: {doble_negacion_verdadero}")
-print(f"Doble negación falso: {doble_negación_falso}")
+print("\n----- Valores Booleanos con doble inversión -----")
+print(f"Doble negación verdadero: {verdadero_doble_invertido}")
+print(f"Doble negación falso: {falso_doble_invertido}")
