@@ -1,15 +1,18 @@
-
+# Conversor de monedas de Euros a Dólares
+# Pedimos al usuario la cantidad de euros
 monto_euros = input("Ingrese el monto que quieres cambiar: ")
 
+# Convertir el texto que ingresó el usuario a decimal
 euro= float(monto_euros)
 
-tipo_cambio= 0.96
+# El valor de euro/dolar
+valor_dolar= 0.96
 
-#Convertir
-dolares= euro/tipo_cambio
+# Conversión
+dolares= euro/valor_dolar
 
-#Redondear
+# Redondear el resultado a 2 decimales
 dolares = round(dolares,2)
 
-
-print(f"Tienes {monto_euros} euros, en dólares es: {dolares}")
+# Mostrar el resultado
+print(f"Tienes €/{str(monto_euros)} euros, en dólares es: ${str(dolares)}")

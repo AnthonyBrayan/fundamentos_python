@@ -64,7 +64,7 @@ print(f"0 <= {x} <= 100 >= 50 >= 25: {0 <= x <= 100 >= 50 >= 25}")
 # Comparaciones con diferentes operadores
 valor = 7
 print("\n=== Operaciones Encadenadas con Diferentes Operadores ===")
-print(f"1 < {valor} < 10 != 5: {1 < valor < 10 != 5}")  # Combina <, != en una cadena
+print(f"1 < {valor} < 10 != 7: {1 <= valor < 10 != 7}")  # Combina <, != en una cadena
 print(f"0 <= {valor} <= 10 == 10: {0 <= valor <= 10 == 10}")  # Combina <=, == en una cadena
 
 # Ejemplos de casos prácticos
