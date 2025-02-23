@@ -1,5 +1,4 @@
 # Comparación simple if-elif-else
-
 x = 6
 # Estructura condicional que evalúa el valor de x
 if x > 5:
@@ -11,10 +10,7 @@ else:
 
 print("Estoy fuera de la estructura condicional")
 
-
-
 # Combinación de condiciones usando operadores lógicos
-
 x = 8
 y = 20
 
@@ -29,3 +25,17 @@ if x > 10 or y > 25:
 # Usando NOT: invierte el valor de la condición
 if not x > 10:
   print("X no es mayor que 10")
+
+# Condicionales anidados
+is_menber = False
+age = 29
+
+# Primera condición: verifica si es miembro
+if is_menber:
+  # Condición anidada: solo se evalúa si es miembro.
+  if age >=18:
+    print("Tienes acceso, ya eres miembro y cumples con la edad mínima")
+  else:
+    print("Aunque seas miembro no cumples con la edad mínima")
+else:
+  print("No eres miembro y NO TIENES ACCESO")
