@@ -70,7 +70,7 @@ print(siguiente_edad)
 12.- Escribe código que convierta 58 minutos a horas y minutos.
 
 13.- Escribe el resultado de estas operación:
-````python 
+```python 
 print(10 > 5 and 4 < 3)
 print(10 > 5 or 4 < 3)
 print(not 10 > 5)
