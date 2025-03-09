@@ -16,7 +16,7 @@ print("Hola" + nombre)
 
  2.- ¿Cuál es el resultado de esta operación?
  ```python
- print(10 + float("5+5"))
+ print(10 + float("5.5"))
  ```
  a) 10.5
  b) 15.5
